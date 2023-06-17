@@ -1,0 +1,180 @@
+:root {
+  --primary-color: #4d4d4d;
+  --secondary-color: #ffbf9b;
+  --terniary-color: #b46060;
+  --color-four: #fff4e0;
+}
+
+body {
+  background-color: var(--color-four);
+  color: var(--primary-color);
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 20px;
+  font-size: 25px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  border-color: var(--terniary-color);
+  border-radius: 20%;
+  border-style: solid;
+}
+
+nav ul li a:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+nav button {
+  display: none;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  color: var(--secondary-color);
+}
+
+section {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  color: var(--terniary-color);
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid var(--terniary-color);
+}
+
+th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0 0 0 20px;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+#openings li {
+  list-style: none;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  color: var(--color-four);
+  background-color: var(--terniary-color);
+  cursor: pointer;
+}
+
+#openings p {
+  line-height: 1.5;
+  padding: 0px 10%;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  max-height: 500px;
+}
+
+ol span {
+  font-weight: bold;
+  color: var(--terniary-color);
+}
+
+ol p {
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+ol li li {
+  font-weight: normal;
+  color: var(--primary-color);
+}
+
+#more-info {
+  margin-top: 50px;
+}
+
+#tips a {
+  color: #b46060;
+}
+
+#tips a:hover {
+  font-size: large;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 40px;
+}
